@@ -17,8 +17,8 @@ export class Items {
   constructor(public http: Http) {
     let items = [
       {
-        "name": "Event 1",
-        "profilePic": "assets/img/clubs/liquidSamplePhoto.jpg",
+        "name": "Midnight Madness",
+        "profilePic": "assets/img/eventArt/midnightMadness.jpg",
         "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
         "date": "10/15/17",
         "venue": "Liquid",
@@ -26,11 +26,36 @@ export class Items {
         "ages": "21+",
         "address": "624 University Ave, Madison, WI 53715",
         "phoneNumber": "(608) 257-1122",
-        "emailAddress": "info@liquidmadison.com"
+        "emailAddress": "info@liquidmadison.com",
+        "ticketTier1": {
+          "name": "General Admission",
+          "location": "Main Floor",
+          "price": "$15.50"
+        },
+        "ticketTier2": {
+          "name": "General Admission",
+          "location": "Upper Deck",
+          "price": "$20.50"
+        },
+        "ticketTier3": {
+          "name": "VIP Admission",
+          "location": "Opera Box",
+          "price": "$60.25"
+        },
+        "ticketTier4": {
+          "name": "",
+          "location": "",
+          "price": ""
+        },
+        "ticketTier5": {
+          "name": "",
+          "location": "",
+          "price": ""
+        }
       },
       {
         "name": "Event 2",
-        "profilePic": "assets/img/clubs/liquidSamplePhoto2.jpg",
+        "profilePic": "assets/img/eventArt/midnightMadness.jpg",
         "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
         "date": "10/15/17",
         "venue": "Liquid",
@@ -38,7 +63,32 @@ export class Items {
         "ages": "21+",
         "address": "624 University Ave, Madison, WI 53715",
         "phoneNumber": "(608) 257-1122",
-        "emailAddress": "info@liquidmadison.com"
+        "emailAddress": "info@liquidmadison.com",
+        "ticketTier1": {
+          "name": "General Admission",
+          "location": "Main Floor",
+          "price": "$15.50"
+        },
+        "ticketTier2": {
+          "name": "General Admission",
+          "location": "Upper Deck",
+          "price": "$20.50"
+        },
+        "ticketTier3": {
+          "name": "VIP Admission",
+          "location": "Opera Box",
+          "price": "$60.25"
+        },
+        "ticketTier4": {
+          "name": "",
+          "location": "",
+          "price": ""
+        },
+        "ticketTier5": {
+          "name": "",
+          "location": "",
+          "price": ""
+        }
       }
     ];
 

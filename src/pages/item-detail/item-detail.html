@@ -7,13 +7,9 @@
 </ion-header>
 
 
-<ion-content style="background-color: rgb(51,51,51);">
-  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
-  </div>
-
-  <div>
-    <h1>{{item.name}}</h1>
-  </div>
+<ion-content style="background-color: rgb(51,51,51); color: #fff;">
+  <!--<div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div>-->
 
   <!--<div class="item-detail" padding>
     <h2>{{item.name}}</h2>
@@ -21,9 +17,9 @@
     <p>{{item.venue}}</p>
   </div>-->
 
-  <!--<ion-item class="item-detail">
+  <div class="item-detail">
     <ion-thumbnail item-start style="float: left; margin-right: 10px;">
-      <img [src]="item.profilePic" style="width: 80px; height: 105px;" />
+      <img [src]="item.profilePic" style="width: 100px; height: 125px;" />
     </ion-thumbnail>
     <h3>{{item.name}}</h3>
     <p>{{item.date}}</p>
@@ -33,6 +29,75 @@
     
     <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
 
-  </ion-item>-->
+  </div>
+
+  <ion-grid>
+    <ion-row style="border-bottom: 1px solid #fff;">
+      <ion-col col-6>Ticket Type</ion-col>
+      <ion-col col-3>Price</ion-col>
+      <ion-col col-3>Quantity</ion-col>
+    </ion-row>
+    
+    <ion-row style="border-bottom: 1px solid #fff;">
+      <ion-col col-6><b>{{item.ticketTier1.name}}</b><br>{{item.ticketTier1.location}}</ion-col>
+      <ion-col col-3>{{item.ticketTier1.price}}</ion-col>
+      <ion-col col-3>
+        <select style="width: 75%; background-color: transparent;">
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="border-bottom: 1px solid #fff;">
+      <ion-col col-6><b>{{item.ticketTier2.name}}</b><br>{{item.ticketTier2.location}}</ion-col>
+      <ion-col col-3>{{item.ticketTier2.price}}</ion-col>
+      <ion-col col-3>
+        <select style="width: 75%; background-color: transparent;">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="border-bottom: 1px solid #fff;">
+      <ion-col col-6><b>{{item.ticketTier3.name}}</b><br>{{item.ticketTier3.location}}</ion-col>
+      <ion-col col-3>{{item.ticketTier3.price}}</ion-col>
+      <ion-col col-3>
+        <select style="width: 75%; background-color: transparent;">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
 
 </ion-content>
