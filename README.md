@@ -1,4 +1,4 @@
-# The Ionic Super Starter 🎮
+# STRYD App
 
 _Note: This application requires Ionic CLI 3._
 
