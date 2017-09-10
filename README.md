@@ -18,7 +18,6 @@ To test this app, install the latest version of the Ionic CLI, clone this git re
 ```bash
 ionic serve --lab
 ```
-OR
 
 ## Pages
 
