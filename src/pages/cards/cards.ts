@@ -15,9 +15,14 @@ export class CardsPage {
           avatar: 'assets/img/marty-avatar.png',
           name: 'Marty McFly'
         },
-        date: 'November 5, 1955',
+        date: 'Saturday, August 26th',
+        venue: 'Liquid',
+        doors: '9pm',
+        ages: 'All Ages',
         image: 'assets/img/advance-card-bttf.png',
-        content: 'Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.',
+        address: '4 Pennsylvania Plaza, New York, NY, 10001',
+        phoneNumber: '(212) 332-6868',
+        emailAddress: 'info@venuename.com'
       },
       {
         user: {
@@ -26,6 +31,7 @@ export class CardsPage {
         },
         date: 'May 12, 1984',
         image: 'assets/img/advance-card-tmntr.jpg',
+        address: '4 Pennsylvania Plaza, New York, NY, 10001',
         content: 'I face the unknown future, with a sense of hope. Because if a machine, a Terminator, can learn the value of human life, maybe we can too.'
       },
       {
@@ -35,6 +41,7 @@ export class CardsPage {
         },
         date: 'June 28, 1990',
         image: 'assets/img/advance-card-jp.jpg',
+        address: '4 Pennsylvania Plaza, New York, NY, 10001',
         content: 'Your scientists were so preoccupied with whether or not they could, that they didn\'t stop to think if they should.'
       }
     ];

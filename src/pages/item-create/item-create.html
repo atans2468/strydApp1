@@ -37,10 +37,31 @@
     </div>
     <ion-list>
       <ion-item>
-        <ion-input type="text" placeholder="{{ 'ITEM_NAME_PLACEHOLDER' | translate }}" formControlName="name"></ion-input>
+        <ion-input type="text" placeholder="Event name" formControlName="name"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input type="text" placeholder="{{ 'ITEM_ABOUT_PLACEHOLDER' | translate }}" formControlName="about"></ion-input>
+        <ion-input type="text" placeholder="About the venue" formControlName="about"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="date" placeholder="Event date" formControlName="date"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Venue name" formControlName="venue"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Doors open at..." formControlName="doors"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="number" placeholder="Age requirement" formControlName="ages"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Venue address" formControlName="address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="tel" placeholder="Venue phone number" formControlName="phoneNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="email" placeholder="Venue email address" formControlName="emailAddress"></ion-input>
       </ion-item>
     </ion-list>
   </form>

@@ -22,7 +22,14 @@ export class ItemCreatePage {
     this.form = formBuilder.group({
       profilePic: [''],
       name: ['', Validators.required],
-      about: ['']
+      about:[''],
+      date: [''],
+      venue: [''],
+      doors: [''],
+      ages: [''],
+      address: [''],
+      phoneNumber: [''],
+      emailAddress: ['']
     });
 
     // Watch the form for changes, and

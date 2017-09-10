@@ -7,12 +7,32 @@
 </ion-header>
 
 
-<ion-content>
+<ion-content style="background-color: rgb(51,51,51);">
   <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
   </div>
 
-  <div class="item-detail" padding>
+  <div>
+    <h1>{{item.name}}</h1>
+  </div>
+
+  <!--<div class="item-detail" padding>
     <h2>{{item.name}}</h2>
     <p>{{item.about}}</p>
-  </div>
+    <p>{{item.venue}}</p>
+  </div>-->
+
+  <!--<ion-item class="item-detail">
+    <ion-thumbnail item-start style="float: left; margin-right: 10px;">
+      <img [src]="item.profilePic" style="width: 80px; height: 105px;" />
+    </ion-thumbnail>
+    <h3>{{item.name}}</h3>
+    <p>{{item.date}}</p>
+    <p>Doors at {{item.doors}}</p>
+    <p>{{item.venue}}</p>
+    <p>{{item.ages}}</p>
+    
+    <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+
+  </ion-item>-->
+
 </ion-content>

@@ -8,48 +8,37 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
+    "name": "Liquid",
     "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
   };
 
 
   constructor(public http: Http) {
     let items = [
       {
-        "name": "Burt Bear",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "name": "Event 1",
+        "profilePic": "assets/img/clubs/liquidSamplePhoto.jpg",
+        "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
+        "date": "10/15/17",
+        "venue": "Liquid",
+        "doors": "10pm",
+        "ages": "21+",
+        "address": "624 University Ave, Madison, WI 53715",
+        "phoneNumber": "(608) 257-1122",
+        "emailAddress": "info@liquidmadison.com"
       },
       {
-        "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
-      },
-      {
-        "name": "Donald Duck",
-        "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
-      },
-      {
-        "name": "Eva Eagle",
-        "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
-      },
-      {
-        "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
-      },
-      {
-        "name": "Molly Mouse",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
-      },
-      {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "name": "Event 2",
+        "profilePic": "assets/img/clubs/liquidSamplePhoto2.jpg",
+        "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
+        "date": "10/15/17",
+        "venue": "Liquid",
+        "doors": "10pm",
+        "ages": "21+",
+        "address": "624 University Ave, Madison, WI 53715",
+        "phoneNumber": "(608) 257-1122",
+        "emailAddress": "info@liquidmadison.com"
       }
     ];
 
