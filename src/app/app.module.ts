@@ -10,10 +10,12 @@ import { CardsPage } from '../pages/cards/cards';
 import { ContentPage } from '../pages/content/content';
 import { ItemCreatePage } from '../pages/item-create/item-create';
 import { ItemDetailPage } from '../pages/item-detail/item-detail';
+import { ItemReviewPage } from '../pages/item-review/item-review';
 import { ListMasterPage } from '../pages/list-master/list-master';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
 import { MenuPage } from '../pages/menu/menu';
+import { ModalContentPage } from '../pages/item-review/item-review';
 import { SearchPage } from '../pages/search/search';
 import { SettingsPage } from '../pages/settings/settings';
 import { SignupPage } from '../pages/signup/signup';
@@ -62,10 +64,12 @@ export function provideSettings(storage: Storage) {
     ContentPage,
     ItemCreatePage,
     ItemDetailPage,
+    ItemReviewPage,
     ListMasterPage,
     LoginPage,
     MapPage,
     MenuPage,
+    ModalContentPage,
     SearchPage,
     SettingsPage,
     SignupPage,
@@ -92,11 +96,13 @@ export function provideSettings(storage: Storage) {
     CardsPage,
     ContentPage,
     ItemCreatePage,
+    ItemReviewPage,
     ItemDetailPage,
     ListMasterPage,
     LoginPage,
     MapPage,
     MenuPage,
+    ModalContentPage,
     SearchPage,
     SettingsPage,
     SignupPage,

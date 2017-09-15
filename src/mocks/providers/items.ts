@@ -54,7 +54,7 @@ export class Items {
         }
       },
       {
-        "name": "Event 2",
+        "name": "Test for Ny",
         "profilePic": "assets/img/eventArt/midnightMadness.jpg",
         "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
         "date": "10/15/17",

@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{ item.name }}</ion-title>
+    <ion-title>Tickets</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -99,5 +99,11 @@
     </ion-row>
 
   </ion-grid>
+
+  <ion-row>
+    <ion-col col-12 style="text-align: center;">
+      <button ion-button color="secondary" round style="width: 70%;" (click)="openItem(item)"><b>Select</b></button>
+    </ion-col>
+  </ion-row>
 
 </ion-content>

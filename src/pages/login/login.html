@@ -7,8 +7,32 @@
 </ion-header>
 
 
-<ion-content>
-  <form (submit)="doLogin()">
+<ion-content style="background-image: url(../assets/img/loginStock.jpeg); color: #fff;">
+    <ion-slides pager style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+
+      <ion-slide>
+        <h2 style="margin-top: -100px;">Welcome To STRYD</h2>
+        <br />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <!--<button ion-button round style="width: 80%;" (click)="goToEvents()">Login with Facebook</button>-->
+      </ion-slide>
+    
+      <ion-slide>
+        <h2>How It Works</h2>
+        <br />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <!--<button ion-button round style="width: 80%;" (click)="goToEvents()">Login with Facebook</button>-->
+      </ion-slide>
+    
+      <ion-slide>
+        <h2>Why You'll Love It</h2>
+        <br />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button ion-button round style="width: 80%;" (click)="goToEvents()">Login with Facebook</button>
+      </ion-slide>
+    
+    </ion-slides>
+  <!--<form (submit)="doLogin()">
     <ion-list>
 
       <ion-item>
@@ -23,7 +47,7 @@
         <ion-label floating>{{ 'USERNAME' | translate }}</ion-label>
         <ion-input type="text" [(ngModel)]="account.username" name="username"></ion-input>
       </ion-item>
-      -->
+      --
 
       <ion-item>
         <ion-label fixed>{{ 'PASSWORD' | translate }}</ion-label>
@@ -35,5 +59,5 @@
       </div>
 
     </ion-list>
-  </form>
+  </form>-->
 </ion-content>

@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController, ToastController } from 'ionic-angular';
+import { NavController, NavParams, ToastController } from 'ionic-angular';
 
 import { MainPage } from '../../pages/pages';
 
 import { User } from '../../providers/user';
+
+import { ListMasterPage } from '../list-master/list-master';
 
 import { TranslateService } from '@ngx-translate/core';
 
@@ -24,10 +26,14 @@ export class LoginPage {
   // Our translated text strings
   private loginErrorString: string;
 
-  constructor(public navCtrl: NavController,
+  constructor(
+    public navCtrl: NavController,
+    navParams: NavParams,
     public user: User,
     public toastCtrl: ToastController,
-    public translateService: TranslateService) {
+    public translateService: TranslateService,
+    public params: NavParams,
+    private nav: NavController) {
 
     this.translateService.get('LOGIN_ERROR').subscribe((value) => {
       this.loginErrorString = value;
@@ -48,5 +54,10 @@ export class LoginPage {
       });
       toast.present();
     });
+  }
+
+  goToEvents() {
+    // go to the MyPage component
+    this.nav.setRoot(ListMasterPage);
   }
 }
