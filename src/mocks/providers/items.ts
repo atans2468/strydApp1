@@ -20,7 +20,7 @@ export class Items {
         "name": "Midnight Madness",
         "profilePic": "assets/img/eventArt/midnightMadness.jpg",
         "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
-        "date": "10/15/17",
+        "date": "10/20/17",
         "venue": "Liquid",
         "doors": "10pm",
         "ages": "21+",
@@ -54,10 +54,10 @@ export class Items {
         }
       },
       {
-        "name": "Test for Ny",
-        "profilePic": "assets/img/eventArt/midnightMadness.jpg",
+        "name": "Dillon Francis",
+        "profilePic": "assets/img/eventArt/dillonFrancis.jpg",
         "about": "Liquid night club is one of the most popular clubs in Madison, WI.",
-        "date": "10/15/17",
+        "date": "10/27/17",
         "venue": "Liquid",
         "doors": "10pm",
         "ages": "21+",
