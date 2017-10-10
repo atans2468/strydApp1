@@ -13,7 +13,6 @@ import { ItemDetailPage } from '../pages/item-detail/item-detail';
 import { ItemReviewPage } from '../pages/item-review/item-review';
 import { ListMasterPage } from '../pages/list-master/list-master';
 import { LoginPage } from '../pages/login/login';
-import { MapPage } from '../pages/map/map';
 import { MenuPage } from '../pages/menu/menu';
 import { ModalContentPage } from '../pages/item-review/item-review';
 import { SearchPage } from '../pages/search/search';
@@ -67,7 +66,6 @@ export function provideSettings(storage: Storage) {
     ItemReviewPage,
     ListMasterPage,
     LoginPage,
-    MapPage,
     MenuPage,
     ModalContentPage,
     SearchPage,
@@ -100,7 +98,6 @@ export function provideSettings(storage: Storage) {
     ItemDetailPage,
     ListMasterPage,
     LoginPage,
-    MapPage,
     MenuPage,
     ModalContentPage,
     SearchPage,
